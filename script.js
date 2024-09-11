@@ -5,7 +5,7 @@ document.addEventListener('DOMContentLoaded', function() {
     let score = 0;
     let startTime;
     let scoreDisplay;
-    let hitSound = new Audio('sound/e37e-e2ef-4e58-a50b-0374edfd0e78.mp3'); // Add the path to your sound file here
+    let hitSound = new Audio('sound/e37e-e2ef-4e58-a50b-0374edfd0e78.mp3'); 
 
     function createScoreDisplay() {
         scoreDisplay = document.createElement('div');
@@ -70,7 +70,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
     function endGame() {
         isGameOver = true;
-        hitSound.play(); // Play the sound effect
+        hitSound.play(); 
         alert('Game Over! You hit the duck.');
         location.reload();
     }
