@@ -1,0 +1,25 @@
+body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(img/75D0CF46-5320-46D6-A64D-A1C28CFD8E7A.jpg);
+    background-size: cover;
+}
+
+.centered {
+    text-align: center;
+    border: 2px solid black;
+    padding: 20px;
+    color: rgb(85, 0, 255);
+}
+
+.start-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    text-decoration: none;
+}
